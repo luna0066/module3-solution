@@ -1,0 +1,135 @@
+body {
+  font-size: 16px;
+  color: black;
+  font-family: 'Oxygen', sans-serif;
+  margin:0px;
+}
+
+/***** HEADER ***************/
+
+#header-nav{
+  background: grey;
+  border-radius: 0;
+  border: 0;  
+  padding-bottom: 20px;
+  position: relative;
+}
+
+.navbar-brand{
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.navbar-brand h1{
+  font-family: 'Lora', serif;
+  font-size:1.5em;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 25px; 
+  color: black;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #222;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus  {
+  text-decoration: none;
+}
+
+#nav-list{
+  margin-top: 15px;
+}
+
+#nav-list a {
+  text-align: center;
+  color: white;
+  font-weight: bold;
+}
+
+#nav-list a:hover {
+  background: black;
+}
+
+
+/***** END HEADER ***************/
+
+/***** MAIN CONTENT ***************/
+
+#main-content h2{
+  font-weight: bolder;
+  margin-bottom: 25px;
+}
+
+#option-menu {
+  position: relative;
+  height: 100%;
+  background: grey;
+  margin-bottom: 15px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+#option-menu p {
+  text-align: justify;
+  padding: 15px;
+  margin-right: 0;
+  margin-bottom: 35px;
+
+}
+
+#option-menu h3{
+  text-align: center;
+  font-weight: bold;
+  padding-top: 10px;
+}
+
+#main-content{
+  width: 100%;
+}
+
+#option-menu{
+  height: 1000px;
+}
+
+/***** MAIN CONTENT ***************/
+
+/********** lg devices **********/
+@media (min-width: 1200px) {
+  #header-nav .container { 
+    float: left;
+  }
+}
+
+/********** md devices **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+  #header-nav .container { 
+    float: left;
+  }
+  
+}
+
+/********** sm devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+
+  #header-nav .container { 
+    float: left;
+  }
+  
+   #header-nav { 
+    padding-bottom: 15px;
+  }
+}
+ 
+
+/********** xs **********/
+@media (max-width: 767px) {
+  #header-nav { 
+    padding-bottom: 15px;
+  }
+}
+
