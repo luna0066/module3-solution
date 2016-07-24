@@ -92,9 +92,7 @@ body {
   width: 100%;
 }
 
-#option-menu{
-  height: 1000px;
-}
+
 
 /***** MAIN CONTENT ***************/
 
@@ -103,12 +101,20 @@ body {
   #header-nav .container { 
     float: left;
   }
+
+  #option-menu{
+    height: 1000px;
+  }
 }
 
 /********** md devices **********/
 @media (min-width: 992px) and (max-width: 1199px) {
   #header-nav .container { 
     float: left;
+  }
+
+  #option-menu{
+    height: 1000px;
   }
   
 }
@@ -122,6 +128,10 @@ body {
   
    #header-nav { 
     padding-bottom: 15px;
+  }
+
+  #option-menu{
+    height: 1000px;
   }
 }
  
